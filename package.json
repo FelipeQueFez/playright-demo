@@ -1,0 +1,22 @@
+{
+  "name": "playright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeQueFez/playright-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeQueFez/playright-demo/issues"
+  },
+  "homepage": "https://github.com/FelipeQueFez/playright-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.0"
+  }
+}
