@@ -21,7 +21,7 @@ Runs the tests only on Desktop Chrome.
 `npx playwright test --debug`
 Runs the tests in debug mode.
 
-`npx playwright codegen https://www.portoseguro.com.br/seguro-auto`
+`npx playwright codegen https://soluevo.com/contatos/`
 Auto generate tests with Codegen.
 
 ### Run specific test
