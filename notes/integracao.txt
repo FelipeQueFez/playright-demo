@@ -1,0 +1,15 @@
+***PASSO 1***
+perfeito, agora eu quero criar um outro teste seguindo este mesmo cenário, porém, este teste sendo um teste de api utilizando o playwright.
+
+***PASSO 2***
+execute apenas o teste de api
+
+***PASSO 3***
+[Fazer a captura do cURL pelo navegador preenchendo o formulário manualmente]
+
+***PASSO 4***
+Fiz um teste manual pelo navegador e capturei o cURL pelo inspecionar com o seguinte conteudo:
+[cURL capturado]
+
+***PASSO 5***
+execute apenas o teste de api
