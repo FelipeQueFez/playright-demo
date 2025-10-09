@@ -1,0 +1,50 @@
+***PASSO 1***
+
+Crie um BDD utilizando o padrão gherkin a partir de uma historia de usuário e organize os BDDs em pastas que correspondam ao número da historia no jira. A historia abaixo é de número 123:
+Como um potencial cliente interessado nos serviços da Soluevo, eu quero preencher o formulário de contato do site para que eu possa solicitar informações comerciais e estabelecer um primeiro contato com a empresa.
+
+Critérios de aceitação:
+- Usuário deve conseguir acessar o site https://soluevo.com.br/
+- Deve conseguir navegar para a página de contatos https://soluevo.com/contatos/
+- Formulário deve conter campos para: nome, email, nome da empresa, cargo, telefone
+- Todos os campos devem ser obrigatórios e validados
+- Email deve ter formato válido
+- Telefone deve aceitar formato brasileiro (XX) XXXXX-XXXX
+- Nome deve ter mínimo de 2 caracteres
+- Nome da empresa deve ter mínimo de 2 caracteres
+- Cargo pode ser texto livre
+- Botão "Enviar" deve estar visível e funcional
+- Após envio bem-sucedido, exibir mensagem de confirmação
+- Dados devem ser enviados para o sistema de CRM da Soluevo
+- Email de confirmação deve ser enviado para o usuário
+- Formulário deve ser limpo após envio bem-sucedido
+- Em caso de erro, manter dados preenchidos e exibir mensagem específica
+
+***PASSO 2***
+Agora vamos seguir por partes. A partir do BDD atual crie um spec teste organizando as pastas que correspondam aos número da historia no jira e implemente apenas o cenario "Preenchimento do formulário com sucesso". Este teste deve utilizer o framework playwright
+
+***PASSO 3***
+Agora execute o teste criado
+
+***PASSO 4***
+Verifique
+
+***PASSO 5***
+execute o teste corrigido
+
+***PASSO 6***
+npx playwright codegen https://soluevo.com/contatos/
+
+***PASSO 7***
+Utilizei a funcionalidade do playwright chamada codegen e ao preencher o formulario e enviar, o playwright gerou este codigo:
+
+[CODIGO GERADO AQUI]
+
+***PASSO 8***
+execute o teste novamente
+
+***PASSO 9***
+Faca o ajuste no código
+
+***PASSO 10***
+execute o teste novamente
