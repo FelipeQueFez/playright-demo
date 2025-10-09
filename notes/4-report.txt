@@ -1,0 +1,8 @@
+***PASSO 1***
+MODO ASK: eu gostaria de coletar evidencias em videos e screenshots utilizando o playwright, isso é possivel?
+
+***PASSO 2***
+perfeito, agora faça a implementacao de configuração de evidencias
+
+***PASSO 3***
+agora execute o teste contato.spec.ts
