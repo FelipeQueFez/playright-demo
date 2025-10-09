@@ -15,7 +15,7 @@ Starts the interactive UI mode.
 `npx playwright test --project=chromium`
 Runs the tests only on Desktop Chrome.
 
-`npx playwright test tests/porto_seguro.spec.ts`
+`npx playwright test tests/123/contato.spec.ts`
 [Runs the tests in a specific file.]
 
 `npx playwright test --debug`
@@ -25,9 +25,8 @@ Runs the tests in debug mode.
 Auto generate tests with Codegen.
 
 ### Run specific test
-`npx playwright test --ui tests/porto_seguro.spec.ts`
+`npx playwright test --ui tests/123/contato.spec.ts`
 
 ### More
 And check out the following files:
-  - .\tests\example.spec.ts - Example end-to-end test
   - .\playwright.config.ts - Playwright Test configuration
