@@ -1,0 +1,8 @@
+***PASSO 1***
+O que é o conceito de page objects dentro do playwright?
+
+***PASSO 2***
+Você pode criar um exemplo aplicando este conceito no teste atual?
+
+***PASSO 3***
+execute apenas o teste alterado
